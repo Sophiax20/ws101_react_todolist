@@ -1,0 +1,79 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #e0f7fa; 
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+}
+
+.container {
+    background-color: white; 
+    padding: 20px;
+    border-radius: 10px; 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); 
+    width: 300px; 
+}
+
+h1 {
+    color: #007bbd; 
+    font-family: 'Comic Sans MS', cursive; 
+    text-align: center; 
+}
+
+input, .react-datepicker-wrapper {
+    padding: 10px;
+    margin: 10px 0; 
+    border: 2px solid #ff66b2;
+    border-radius: 5px; 
+    width: calc(100% - 22px); 
+}
+
+button {
+    padding: 8px; 
+    background-color: #007bbd; 
+    color: white;
+    border: none;
+    border-radius: 5px; 
+    cursor: pointer;
+    width: 100%; 
+    margin-top: 10px; 
+}
+
+button:hover {
+    background-color: #005f8d; 
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 20px; 
+}
+
+li {
+    background: white;
+    margin: 5px 0;
+    padding: 10px;
+    border: 1px solid #ff66b2;
+    border-radius: 5px; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    text-align: center; 
+}
+
+.button-container {
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+}
+
+li button {
+    padding: 2; 
+    font-size: 10px; 
+    margin: 2px 0; 
+    width: 80px; 
+}
